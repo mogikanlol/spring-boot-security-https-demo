@@ -1,0 +1,6 @@
+server:
+  port: 8443
+  ssl:
+    key-store: classpath:serverkeystore.p12
+    key-store-password: changeit
+    keyStoreType: PKCS12
